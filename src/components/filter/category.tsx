@@ -35,7 +35,7 @@ export default function Category({ category }: { category: string }) {
   return (
     <button
       onClick={handleCategoryClick(category)}
-      className={`my-2 mr-6 cursor-pointer rounded-full px-6 py-2 ring-red-500 transition-all duration-300 hover:ring-offset-4 dark:ring-offset-customGray-dark ${
+      className={`my-1 md:my-2 mr-6 cursor-pointer rounded-full px-6 py-2 ring-red-500 transition-all duration-300 hover:ring-offset-4 dark:ring-offset-customGray-dark ${
         checked
           ? 'bg-black text-white ring-[3px] ring-offset-4 dark:bg-white dark:text-black'
           : 'bg-secondary'

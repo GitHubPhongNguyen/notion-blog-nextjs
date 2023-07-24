@@ -38,10 +38,10 @@ export default function SearchBar() {
       <input
         ref={focusRef}
         type="text"
-        placeholder="Search posts"
+        placeholder="Tìm kiếm"
         onChange={handleInputChange}
         value={query}
-        className={`w-full rounded-full border-[2px] border-gray-300 py-4 pl-14 pr-12 text-xl font-medium hover:border-red-500 focus:border-red-500 focus:bg-customGray-base focus:outline-none dark:border-gray-400 dark:bg-customGray-dark dark:focus:bg-customGray-light ${
+        className={`w-full rounded-full border-[2px] border-gray-300 py-2 pl-14 pr-12 text-lg font-medium hover:border-red-500 focus:border-red-500 focus:bg-customGray-base focus:outline-none dark:border-gray-400 dark:bg-customGray-dark dark:focus:bg-customGray-light ${
           isHovering && 'border-red-500'
         }`}
       />

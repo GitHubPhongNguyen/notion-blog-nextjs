@@ -22,9 +22,9 @@ export default function PostCard({
             style={{ objectFit: 'cover' }}
           />
         </div>
-        <div className="flex h-48 flex-col p-4">
-          <h3 className="line-clamp-2 h-16 text-2xl font-bold">{title}</h3>
-          <time className="mb-4 mt-2 pl-2 text-sm text-gray-400">{date}</time>
+        <div className="flex flex-col p-4">
+          <h3 className="truncate text-lg md:text-2xl font-bold">{title}</h3>
+          <time className="mb-2 text-sm text-gray-400 mt-1">{date}</time>
           <CategoryList categories={categories} />
         </div>
       </article>

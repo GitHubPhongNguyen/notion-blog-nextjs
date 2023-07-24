@@ -5,14 +5,14 @@ import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
   { path: 'blog', name: 'Blog' },
-  { path: 'about', name: 'About' },
-  { path: 'contact', name: 'Contact' },
+  { path: 'about', name: 'Giới thiệu' },
+  { path: 'contact', name: 'Liên hệ' },
   { path: 'projects', name: 'Projects' },
 ];
 
 export default function Header() {
   return (
-    <nav className="flex flex-col justify-between py-12 md:flex-row">
+    <nav className="flex flex-col justify-between pt-12 pb-6 md:py-12 md:pb-0 md:flex-row">
       <Link href="/" className="self-start md:self-auto">
         <h1 className="text-3xl font-bold">Him98</h1>
       </Link>
