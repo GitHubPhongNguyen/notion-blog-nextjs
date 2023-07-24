@@ -21,17 +21,17 @@ export default function RelatedPosts({ posts }: { posts: Post[] }) {
 
   return (
     <section className="mt-10 flex flex-col">
-      <h1 className="text-3xl font-bold">Related Posts</h1>
-      <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+      <h1 className="text-3xl font-bold">Bài viết liên quan</h1>
+      <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-10">
         {posts.slice(0, numPosts).map((post) => (
-          <div
-            key={post.slug}
-            className="scale-[0.8] transition-all duration-300 hover:scale-[0.85]"
-          >
-            <li key={post.slug}>
+          <li key={post.slug}>
+            <div
+              key={post.slug}
+              className="transition-all duration-300 hover:scale-[1]"
+            >
               <PostCard post={post} />
-            </li>
-          </div>
+            </div>
+          </li>
         ))}
       </ul>
       {numPosts < posts.length && (
