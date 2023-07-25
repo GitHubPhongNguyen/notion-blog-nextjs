@@ -28,6 +28,6 @@
   @apply !text-red-500;
 }
 
-.notion-page-content img{
-    position: static !important;
+.notion-page-content img {
+  position: static !important;
 }
