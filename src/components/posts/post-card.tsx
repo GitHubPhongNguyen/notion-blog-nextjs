@@ -23,7 +23,7 @@ export default function PostCard({
           />
         </div>
         <div className="flex flex-col p-4">
-          <h3 className="truncate text-lg md:text-2xl font-bold">{title}</h3>
+          <h3 className="truncate text-lg md:text-xl font-bold">{title}</h3>
           <time className="mb-2 text-sm text-gray-400 mt-1">{date}</time>
           <CategoryList categories={categories} />
         </div>
