@@ -54,6 +54,7 @@ export default async function PostPage({
             src={post.cover}
             alt="cover"
             fill
+            quality={80}
             style={{ objectFit: 'contain' }}
           />
         </div>

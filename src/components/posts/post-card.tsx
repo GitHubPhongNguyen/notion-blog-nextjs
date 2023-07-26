@@ -19,6 +19,7 @@ export default function PostCard({
             src={cover}
             alt="cover image"
             fill
+            quality={80}
             style={{ objectFit: 'cover' }}
           />
         </div>
