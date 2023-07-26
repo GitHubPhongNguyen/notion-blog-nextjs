@@ -12,6 +12,7 @@
     "inspect": "npm run lint && npm run ts"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "axios": "^1.4.0",
     "encoding": "^0.1.13",
     "hangul-chosung-search": "^1.0.2",
