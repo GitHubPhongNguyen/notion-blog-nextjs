@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function HomePage() {
   return (
-    <div className="mt-15 mx-auto grid max-w-3xl grid-cols-1 gap-9 md:mt-20 md:grid-cols-2">
+    <div className="mt-15 mx-auto grid max-w-3xl grid-cols-1 gap-9 md:mt-40 md:grid-cols-2">
       <div>
         <h1 className="text-5xl font-bold leading-normal drop-shadow-md">
           Front-End React Developer 👋
