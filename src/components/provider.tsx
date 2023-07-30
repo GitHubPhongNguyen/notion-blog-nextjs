@@ -5,7 +5,7 @@ import { RecoilRoot } from 'recoil';
 
 export default function Provider({ children }: { children: React.ReactNode }) {
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" defaultTheme="dark">
       <RecoilRoot>{children}</RecoilRoot>
     </ThemeProvider>
   );
