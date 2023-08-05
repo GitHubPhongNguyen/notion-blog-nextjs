@@ -31,3 +31,13 @@
 .notion-page-content img {
   position: static !important;
 }
+
+.notion-text,
+.notion-list {
+  font-size: 18px;
+}
+
+pre.notion-code {
+  max-height: 300px;
+  overflow: scroll;
+}
