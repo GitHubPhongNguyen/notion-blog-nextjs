@@ -34,7 +34,7 @@ export default function CategoryFilter({
           Xóa tất cả
         </button>
       </div>
-      <div className="flex min-h-[56px] max-w-[36rem] flex-wrap justify-start gap-y-[0.3rem]">
+      <div className="flex min-h-[56px] flex-wrap justify-start gap-y-[0.3rem]">
         {allCategories.map((category) => (
           <Category key={category} category={category} />
         ))}

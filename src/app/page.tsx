@@ -36,7 +36,7 @@ export default function HomePage() {
           </li>
         </ul>
       </div>
-      <div className="relative h-96 w-full overflow-hidden">
+      <div className="relative h-96 overflow-hidden">
         <Image
           src="/him98.png"
           alt="cover"

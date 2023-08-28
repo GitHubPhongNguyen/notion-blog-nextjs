@@ -29,3 +29,11 @@ div,
 button {
   -webkit-tap-highlight-color: transparent;
 }
+
+.notion-page-content-has-aside{
+  width: 100%;
+}
+
+.notion-page {
+  max-width: 1088px;
+}
