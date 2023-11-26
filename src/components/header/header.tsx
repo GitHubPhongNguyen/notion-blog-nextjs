@@ -5,8 +5,8 @@ import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
   { path: 'blog', name: 'Blog' },
-  { path: 'about', name: 'Giới thiệu' },
-  { path: 'contact', name: 'Liên hệ' },
+  { path: 'about', name: 'About' },
+  { path: 'contact', name: 'Contact' },
   { path: 'projects', name: 'Projects' },
 ];
 

@@ -23,7 +23,7 @@ export default function CategoryFilter({
   return (
     <div className="flex flex-col space-y-4 items-start">
       <div className="flex items-center">
-        <h2 className="text-xl font-bold">Tìm kiếm theo chủ đề</h2>
+        <h2 className="text-xl font-bold">Read by tag</h2>
         <button
           onClick={handleClearAll}
           className={`relative -right-10 text-xs ${
@@ -31,7 +31,7 @@ export default function CategoryFilter({
             'pointer-events-none text-gray-300 dark:text-gray-600'
           }`}
         >
-          Xóa tất cả
+          Remove all
         </button>
       </div>
       <div className="flex min-h-[56px] flex-wrap justify-start gap-y-[0.3rem]">
