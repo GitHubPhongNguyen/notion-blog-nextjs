@@ -31,7 +31,12 @@ export async function getAllPostsFromNotion() {
       const slug = properties[propertyMap['Slug']][0][0];
       const title = properties[propertyMap['Page']][0][0];
       const categories = properties[propertyMap['Category']][0][0].split(',');
-      const cover = properties[propertyMap['Cover']][0][1][0][1];
+      let cover = "";
+      try {
+        cover = properties[propertyMap['Cover']][0][1][0][1];
+      } catch (error) {
+        console.log(error);
+      }
       const date = properties[propertyMap['Date']][0][1][0][1]['start_date'];
       const published = properties[propertyMap['Published']][0][0] === 'Yes';
 
@@ -40,8 +45,6 @@ export async function getAllPostsFromNotion() {
         title,
         slug,
         categories,
-        // Fix 403 error for images.
-        // https://github.com/NotionX/react-notion-x/issues/211
         cover: mapImageUrl(cover, block[pageId].value) || '',
         date,
         published,
