@@ -1,6 +1,6 @@
 export default function CategoryList({ categories }: { categories: string[] }) {
   return (
-    <div className="flex space-x-2">
+    <div className="flex space-x-2 flex-wrap">
       {categories.map((category) => (
         <span
           key={category}

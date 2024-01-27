@@ -8,6 +8,7 @@ import Provider from '@/components/provider';
 import ScrollUpButton from '@/components/scroll-up-button';
 import '@/styles/globals.css';
 import '@/styles/paginate.css';
+import Footer from '@/components/footer';
 
 export const metadata = {
   title: {
@@ -29,6 +30,9 @@ export default function RootLayout({
           <main>{children}</main>
           <div className="fixed bottom-12 right-10">
             <ScrollUpButton />
+          </div>
+          <div className='mt-[4rem] md:mt[6rem]'>
+            <Footer />
           </div>
         </Provider>
         {/* <Analytics /> */}
