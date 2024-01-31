@@ -26,7 +26,7 @@
     "react-notion-x": "^6.16.0",
     "react-paginate": "^8.1.4",
     "recoil": "^0.7.7",
-    "sharp": "^0.32.1"
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
