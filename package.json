@@ -14,7 +14,7 @@
   "dependencies": {
     "@next/third-parties": "^14.1.0",
     "@vercel/analytics": "^1.0.1",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "encoding": "^0.1.13",
     "hangul-chosung-search": "^1.0.2",
     "next": "13.4",
