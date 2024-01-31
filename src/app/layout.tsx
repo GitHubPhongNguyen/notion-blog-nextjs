@@ -9,6 +9,7 @@ import ScrollUpButton from '@/components/scroll-up-button';
 import '@/styles/globals.css';
 import '@/styles/paginate.css';
 import Footer from '@/components/footer';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: {
@@ -36,6 +37,7 @@ export default function RootLayout({
           </div>
         </Provider>
         {/* <Analytics /> */}
+        <GoogleAnalytics gaId="G-J6SG0SJLHG" />
       </body>
     </html>
   );
