@@ -17,24 +17,6 @@ export default function HomePage() {
         <p className="mt-6 text-xl text-gray-500 dark:text-gray-400">
           Hi. I&apos;m Him98. A Front-End React Developer in Viet Nam 📍
         </p>
-        <ul className="mt-6 flex gap-5">
-          <li>
-            <Link href="https://www.instagram.com/him98dev">
-              <FaInstagram
-                size={28}
-                className="drop-shadow-md duration-150 ease-in-out hover:text-orange-400"
-              />
-            </Link>
-          </li>
-          <li>
-            <Link href="https://github.com/GitHubPhongNguyen">
-              <FaGithub
-                size={28}
-                className="drop-shadow-md duration-150 ease-in-out hover:text-orange-400"
-              />
-            </Link>
-          </li>
-        </ul>
       </div>
       <div className="relative h-96 overflow-hidden">
         <Image
